@@ -1,0 +1,228 @@
+.all {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+}
+
+.tobii a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+.tobii ul li {
+  display: inline-block;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.tobii ul li i {
+  margin-left: 8px;
+}
+
+.tobii ul {
+  margin-left: -40px;
+}
+
+.tt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+
+.tt h2 {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.dn span,
+a {
+  font-size: 14px;
+}
+
+.input input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #9e939366;
+}
+
+.form-check input {
+  width: 15px;
+  height: 15px;
+
+}
+
+.form-check {
+  margin-top: 10px;
+}
+
+.dn a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.dc h2 {
+  font-size: 21px;
+  font-weight: 400;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.form-control {
+  padding: 10px;
+  height: 46px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.put input {
+  margin-top: 20px;
+}
+
+.end-check {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.end-check a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.end-check i {
+  font-size: 19px;
+  margin-top: 3px;
+}
+
+.end-check button {
+  padding: 16px 25px;
+  background: #000000;
+  color: #ffff;
+  font-weight: 550;
+  border-radius: 5px;
+  width: 200px;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+span {
+  font-size: 13px;
+}
+
+.col-lg-7 {
+  border-right: 1px solid rgb(211, 211, 211);
+}
+
+.col-lg-5 img {
+  border: 1px solid #ced4da;
+  padding: 0px 7px;
+  border-radius: 7px;
+}
+
+
+.check-pro {
+  margin-top: 20px;
+  margin-left: -260px;
+}
+
+.price strong {
+  font-size: 15px;
+  float: right;
+  font-weight: 500;
+}
+
+.ma {
+  width: 402px !important;
+}
+
+.btn {
+  border: 1px solid #ced4da;
+  height: 46px;
+  margin-left: 25px;
+  padding: 6px 17px;
+  background: rgb(133, 133, 133, 1);
+  color: rgb(244, 244, 244.1);
+  font-weight: 500;
+}
+
+
+.tong span {
+  font-size: 14px;
+}
+
+.price-t strong {
+  font-size: 15px;
+  float: right;
+  font-weight: 500;
+  margin-top: -22px;
+}
+
+.van-chuyen {
+  margin-top: 7px;
+}
+
+.van-chuyen span {
+  font-size: 14px;
+}
+
+.bt span {
+  float: right;
+  margin-top: -20px;
+}
+
+.tt strong {
+  font-weight: 500;
+  margin-top: 25px;
+}
+
+.vng {
+  display: flex;
+  float: right;
+}
+
+.vng p {
+  color: rgb(114, 114, 114);
+  font-size: 12px;
+  margin-top: -23px;
+}
+
+.vng strong {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: -36px;
+  margin-left: 7px;
+}
+
+.p-1 {
+  margin-top: -5px !important;
+}
+
+.header-widget>i {
+  position: relative;
+}
+
+.header-widget p {
+  top: -37px;
+  right: 136px;
+  position: absolute;
+}
+
+.header-widget p {
+  width: 17px;
+  height: 17px;
+  text-align: center;
+  background-color: rgb(128 128 128);
+  border-radius: 50%;
+  color: #fff;
+  font-size: 12px;
+  line-height: 16px;
+  border: 1px solid rgb(128 128 128);
+}

@@ -1,0 +1,82 @@
+<body>
+  <form [formGroup]="formData" (ngSubmit)="onSubmit()">
+    <div class="container">
+      <div class="group-super">
+        <div class="text">
+          <h1>Login</h1>
+        </div>
+        <!-- <label for="">EMAIL</label>
+                <div class="input-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        formControlName="email">
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="">PASSWORD</label>
+                    </div>
+                    <div class="col-lg-6 text">
+                        <span class="pass">Forgot Password?</span>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <input class="text" type="text" name="" id="">
+                </div>
+                <div class="button-login">
+                    <button>SIGN IN</button>
+                </div>
+                <div class="register">
+                    <a routerLink="/register"><span>Create account</span></a>
+                </div> -->
+        <div class="alert alert-danger" role="alert" *ngIf="error">
+          <strong>{{ error }}</strong>
+        </div>
+        <form [formGroup]="formData" (ngSubmit)="onSubmit()">
+          <div class="input-group">
+            <label for="exampleInputEmail1" class="pb-2">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              formControlName="email" />
+            <div *ngIf="f.email.invalid && (f.email.dirty || f.email.touched)" class="text-danger">
+              <div *ngIf="f.email.errors?.['required']">
+                This is a required field.
+              </div>
+              <div *ngIf="f.email.errors?.['email']">Email format errors</div>
+            </div>
+          </div>
+
+
+          <div class="input-group">
+            <div class="d-flex  align-items-center pb-2 w-100 justify-content-between">
+              <div class="">
+                <label for="exampleInputPassword1" class="">Password</label>
+              </div>
+              <div class="">
+                <span class="pass">Forgot Password?</span>
+              </div>
+            </div>
+
+            <input type="password" class="form-control" id="exampleInputPassword1" formControlName="password" />
+
+            <div *ngIf="
+                          f.password.invalid && (f.password.dirty || f.password.touched)
+                        " class="text-danger">
+              <div *ngIf="f.password.errors?.['required']">
+                This is a required field.
+              </div>
+              <div *ngIf="f.password.errors?.['']">Password format errors</div>
+            </div>
+          </div>
+
+
+          <div class="button-login">
+            <button type="submit" [disabled]="!formData.valid">
+              SIGN IN
+            </button>
+          </div>
+          <div class="register">
+            <a routerLink="/register"><span>Create account</span></a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </form>
+</body>

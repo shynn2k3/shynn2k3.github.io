@@ -1,0 +1,73 @@
+<main>
+  <div class="main mb-5">
+    <div class="allitem mb-2 mt-2">
+      <div class="shopcart">
+        <li>Home</li>
+        <p></p>
+        <i class="fa-solid fa-angle-right ml-3 mr-3"></i>
+        <p></p>
+        <li>Shopping Cart</li>
+      </div>
+      <div class="">
+        <p>{{ cart.length }} Items In The Cart</p>
+      </div>
+    </div>
+    <div class="productcart mb-3" *ngFor="let item of cart">
+      <div class="title_cart">
+        <div class="cardimage">
+          <img src="{{ item.avatar1 }}" alt="" width="100%" />
+        </div>
+        <div class="ml-2">
+          <h5>{{ item.title }}</h5>
+          <!-- <p>Description for product item number 1</p> -->
+          <h6><strong>Size:</strong> {{item.size}}</h6>
+          <h6>{{ item.content }}đ</h6>
+        </div>
+      </div>
+      <div class="amount">
+        <div class="row buy mb-5 mt-5">
+          <div class="input ml-3">
+            <button class="btn-fake left_ip text-center" (click)="mark('-', item.id)">
+              -
+            </button>
+            <input type="text" value="{{ item.quantity }}" id="quantily{{ item.id }}" style="text-align: center" />
+            <button class="btn-fake right_ip text-center" (click)="mark('+', item.id)">
+              +
+            </button>
+          </div>
+          <div id="rateYo" class="star ml-5"></div>
+        </div>
+        <i class="far fa-times-circle text-danger x" (click)="deleteCart(item.id)"></i>
+
+      </div>
+
+    </div>
+    <hr>
+    <div class="cart_bottom">
+      <div>
+        <div class="discount"></div>
+      </div>
+      <div class="pay">
+        <div>
+          <p class="mr-3">Subtotal:</p>
+          <h5 class="mr-3">Total:</h5>
+        </div>
+        <div>
+          <p>{{ total.toLocaleString('it-IT', { style: 'currency', currency: 'VND' }) }}</p>
+          <h5>{{ total.toLocaleString('it-IT', { style: 'currency', currency: 'VND' }) }}</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="button-order">
+        <button (click)="order()" routerLink="/check">Order</button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="button-order">
+        <a><button routerLink="/all">BACK TO SHOP</button></a>
+      </div>
+    </div>
+  </div>
+</main>

@@ -1,0 +1,200 @@
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7">
+        <div class="check-uot">
+          <div class="tobii">
+            <a href="">TOBI</a>
+            <ul>
+              <li>Giỏ hàng <i class="fa-solid fa-angle-right"></i></li>
+              <li>Thông tin <i class="fa-solid fa-angle-right"></i></li>
+              <li>Vận chuyển <i class="fa-solid fa-angle-right"></i></li>
+              <li>Thanh toán</li>
+            </ul>
+          </div>
+
+          <div class="tt">
+            <h2>Thông tin liên hệ</h2>
+            <div class="dn">
+              <span>Bạn chưa có tài khoản?</span>
+              <a routerLink="/login">Đăng nhập</a>
+            </div>
+          </div>
+          <form [formGroup]="formData" (ngSubmit)="onSubmit()">
+            <div class="input">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                formControlName="email" placeholder="Email hoặc Số điện thoại nhận khuyến mãi" />
+              <div *ngIf="f.email.invalid && (f.email.dirty || f.email.touched)" class="text-danger">
+                <div *ngIf="f.email.errors?.['required']">
+                  Nhập email hoặc số điện thoại di động hợp lệ.
+                </div>
+                <div *ngIf="f.email.errors?.['email']">Nhập email hoặc số điện thoại di động hợp lệ
+                </div>
+              </div>
+            </div>
+          </form>
+
+
+          <div class="dc">
+            <h2>Địa chỉ giao hàng</h2>
+          </div>
+
+          <select class="selectpicker form-control">
+            <option>Quốc gia/Vùng</option>
+            <option>Việt Nam</option>
+            <option>Hoa Kỳ</option>
+            <option>Séc</option>
+            <option>Cannada</option>
+            <option>---</option>
+            <option>Ấn Độ</option>
+            <option>Ai Cập</option>
+            <option>Áo</option>
+            <option>Australia</option>
+            <option>Argentina</option>
+            <option>Angola</option>
+          </select>
+
+          <form [formGroup]="formData" (ngSubmit)="onSubmit()">
+            <div class="form-row">
+              <div class="col">
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  formControlName="lastName" placeholder="Tên (Ví dụ: Bảo Lâm)" />
+                <div *ngIf="f.lastName.invalid && (f.lastName.dirty || f.lastName.touched)" class="text-danger">
+                  <div *ngIf="f.lastName.errors?.['required']">
+                    <small>Nhập tên.</small>
+                  </div>
+                  <div *ngIf="f.lastName.errors?.['minlength']">
+                    <small>Nhập tên </small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  formControlName="firstName" placeholder="Họ và tên lót (Ví dụ: Phan Trần)" />
+
+                <div *ngIf="f.firstName.invalid && (f.firstName.dirty || f.firstName.touched)" class="text-danger">
+                  <div *ngIf="f.firstName.errors?.['required']">
+                    <small>Nhập họ.</small>
+                  </div>
+                  <div *ngIf="f.firstName.errors?.['minlength']">
+                    <small>Nhập họ. </small>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="input put">
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                formControlName="address" placeholder="Địa chỉ ghi rõ:Số nhà, tên Đường, Phường/Xã, Quận/Huyện">
+              <div *ngIf="f.address.invalid && (f.address.dirty || f.address.touched)" class="text-danger">
+                <div *ngIf="f.address.errors?.['required']">
+                  <small>Nhập địa chỉ.</small>
+                </div>
+                <div *ngIf="f.address.errors?.['minlength']">
+                  <small>Nhập địa chỉ </small>
+                </div>
+              </div>
+            </div>
+          </form>
+
+
+
+          <form [formGroup]="formData" (ngSubmit)="onSubmit()">
+            <div class="form-row">
+              <div class="col">
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  formControlName="city" placeholder="Thành phố">
+                <div *ngIf="f.city.invalid && (f.city.dirty || f.city.touched)" class="text-danger">
+                  <div *ngIf="f.city.errors?.['required']">
+                    <small>Nhập thành phố.</small>
+                  </div>
+                  <div *ngIf="f.city.errors?.['minlength']">
+                    <small>Nhập thành phố. </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Mã bưu điện">
+              </div>
+            </div>
+
+            <div class="input put">
+              <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                formControlName="phone" placeholder="Số điện thoại liên hệ khi giao hàng">
+              <div *ngIf="f.phone.invalid && (f.phone.dirty || f.phone.touched)" class="text-danger">
+                <div *ngIf="f.phone.errors?.['required']">
+                  <small>Nhập số điện thoại.</small>
+                </div>
+                <div *ngIf="f.phone.errors?.['minlength']">
+                  <small>Nhập số điện thoại. </small>
+                </div>
+              </div>
+            </div>
+          </form>
+
+          <div class="end-check">
+            <a href=""><i class="fa-solid fa-angle-left"></i>Quay lại giỏ hàng</a>
+            <button type="submit" (click)="onSubmit()" [disabled]="!formData.valid">Đặt Hàng</button>
+          </div>
+          <hr>
+          <span>Chính sách vận chuyển</span>
+        </div>
+
+      </div>
+
+      <div class="col-lg-5">
+
+        <div class="all" *ngFor="let item of cart">
+          <img src="{{ item.avatar1 }}" alt="" width="62px" height="62px">
+          <a href="" class="header-widget">
+            <i class="fa-solid">
+              <p><small>{{item.quantity}}</small></p>
+            </i>
+          </a>
+          <div class="check-pro">
+            <strong>{{ item.title }}</strong>
+            <p>{{item.size}}</p>
+          </div>
+          <div class="price">
+            <strong>{{ item.content }}đ</strong>
+          </div>
+        </div>
+        <hr>
+        <form class="form-inline">
+          <div class="form-group ">
+            <input type="text" class="form-control ma" id="inputPassword2" placeholder="Mã giảm giá">
+          </div>
+          <button type="submit" class="btn">Áp dụng</button>
+        </form>
+        <hr>
+        <div class="tong">
+          <span>Tổng phụ</span>
+        </div>
+
+        <div class="price-t">
+          <strong>{{ total.toLocaleString('it-IT', { style: 'currency', currency: 'VND' }) }}</strong>
+        </div>
+
+        <div class="van-chuyen">
+          <span>Vận chuyển</span>
+          <i class="fa-solid fa-circle-question"></i>
+        </div>
+
+        <div class="bt">
+          <span>Tính vào bước tiếp theo</span>
+        </div>
+        <hr>
+        <div class="tt">
+          <strong>Tổng</strong>
+        </div>
+
+        <div class="vng">
+          <p>VNG</p>
+          <strong>{{ total.toLocaleString('it-IT', { style: 'currency', currency: 'VND' }) }}</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

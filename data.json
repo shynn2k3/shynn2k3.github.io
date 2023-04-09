@@ -1,0 +1,730 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "avatar1": "./../../assets/IMG/tobi-waffle-short-black-682067_1800x1800.webp",
+      "avatar2": "./../../assets/IMG/tobi-waffle-short-black-167928_360x.webp",
+      "title": "áO BÒ NAM ZÊN VIET VẺ 2002",
+      "content": 390000,
+      "qnt": 2,
+      "all": 4,
+      "danhgia": 3
+    },
+    {
+      "id": 2,
+      "avatar1": "..//../../assets/IMG/quan trang 1.webp",
+      "avatar2": "..//../../assets/IMG/quan trang 2.webp",
+      "title": "TOBI Waffle Short - Nude ",
+      "content": 390000,
+      "qnt": 2,
+      "all": 4,
+      "danhgia": 4
+    },
+    {
+      "id": 3,
+      "avatar1": "..//../../assets/IMG/quan xam 1.webp",
+      "avatar2": "..//../../assets/IMG/quan xam 2.webp",
+      "title": "TOBI Waffle Shorts - Lead Shell",
+      "content": 390000,
+      "qnt": 2,
+      "all": 4,
+      "danhgia": 8
+    },
+    {
+      "id": 4,
+      "avatar1": "..//../../assets/IMG/quan trang xam 1.webp",
+      "avatar2": "..//../../assets/IMG/quan trang xam 2.jpg",
+      "title": "TOBI Waffle Shorts - Olive ",
+      "content": 390000,
+      "qnt": 2,
+      "all": 4,
+      "danhgia": 9
+    },
+    {
+      "id": 5,
+      "avatar1": "..//../../assets/IMG/ao xam 1.webp",
+      "avatar2": "..//../../assets/IMG/ap xam 2.webp",
+      "title": "TOBI Waffle T-shirt - Lead Shell ",
+      "content": 390000,
+      "qnt": 1,
+      "all": 4,
+      "danhgia": 5
+    },
+    {
+      "id": 6,
+      "avatar1": "..//../../assets/IMG/aoolive1.webp",
+      "avatar2": "..//../../assets/IMG/aoolive2.webp",
+      "title": "TOBI Waffle T- shirt - Olive ",
+      "content": 390000,
+      "qnt": 1,
+      "all": 4,
+      "danhgia": 3
+    },
+    {
+      "id": 7,
+      "avatar1": "..//../../assets/IMG/aotaupe.webp",
+      "avatar2": "..//../../assets/IMG/aotaupe2.webp",
+      "title": "TOBI Waffle T-shirt - Lead Shell",
+      "content": 390000,
+      "qnt": 1,
+      "all": 4,
+      "danhgia": 1
+    },
+    {
+      "id": 8,
+      "avatar1": "..//../../assets/IMG/cream.webp",
+      "avatar2": "..//../../assets/IMG/cream2.webp",
+      "title": "TOBI Waffle T- shirt - Olive ",
+      "content": 390000,
+      "qnt": 1,
+      "all": 4,
+      "danhgia": 2
+    },
+    {
+      "id": 9,
+      "avatar1": "..//../../assets/IMG/Áo đen 1.webp",
+      "avatar2": "..//../../assets/IMG/Áo đen 1-2.webp",
+      "title": "TOBI 280gsm Heaven Tee - Black ",
+      "content": 390000,
+      "qnt": 1,
+      "all": 4,
+      "danhgia": 3
+    },
+    {
+      "id": 10,
+      "avatar1": "..//../../assets/IMG/aonau1.webp",
+      "avatar2": "..//../../assets/IMG/aonau2.webp",
+      "title": "TOBI 280gsm Boxy Tee - Brown ",
+      "content": 420000,
+      "qnt": 1,
+      "all": 4,
+      "danhgia": 6
+    },
+    {
+      "id": 11,
+      "avatar1": "..//../../assets/IMG/Áo tay nâu 1.webp",
+      "avatar2": "..//../../assets/IMG/Áo tay nâu 2.webp",
+      "title": "Waffle Raglan Tee - Brown ",
+      "content": 420000,
+      "qnt": 1,
+      "all": 4,
+      "danhgia": 9
+    },
+    {
+      "id": 12,
+      "avatar1": "..//../../assets/IMG/trangxam1.webp",
+      "avatar2": "..//../../assets/IMG/trangxam2.webp",
+      "title": "Waffle Raglan Tee - Olive ",
+      "content": 420000,
+      "qnt": 1,
+      "all": 4,
+      "danhgia": 0
+    },
+    {
+      "id": 13,
+      "avatar1": "..//../../assets/IMG/xamden1.webp",
+      "avatar2": "..//../../assets/IMG/xamden2.webp",
+      "title": "Waffle Raglan Tee - Black ",
+      "content": 420000,
+      "qnt": 1,
+      "all": 4,
+      "danhgia": 11
+    },
+    {
+      "id": 14,
+      "avatar1": "..//../../assets/IMG/baggy1.webp",
+      "avatar2": "..//../../assets/IMG/baggy2.webp",
+      "title": "Double Knee Jeans SS22 - Blue ",
+      "content": 680000,
+      "qnt": 2,
+      "all": 4,
+      "danhgia": 16
+    },
+    {
+      "id": 15,
+      "avatar1": "..//../../assets/IMG/abaggytrang1.webp",
+      "avatar2": "..//../../assets/IMG/abaggytrang2.webp",
+      "title": "Double Knee Jeans SS22 - White ",
+      "content": 680000,
+      "qnt": 2,
+      "all": 4,
+      "danhgia": 20
+    },
+    {
+      "id": 16,
+      "avatar1": "..//../../assets/IMG/baggyden1.webp",
+      "avatar2": "..//../../assets/IMG/baggyden2.webp",
+      "title": "Double Knee Jeans SS22 - Black ",
+      "content": 680000,
+      "qnt": 2,
+      "all": 4,
+      "danhgia": 16
+    },
+    {
+      "id": 17,
+      "avatar1": "..//../../assets/IMG/polotrang1.webp",
+      "avatar2": "..//../../assets/IMG/polotrang2.webp",
+      "title": "Polo Waffle Collar - White ",
+      "content": 420000,
+      "qnt": 4,
+      "all": 4,
+      "danhgia": 9
+    },
+    {
+      "id": 18,
+      "avatar1": "..//../../assets/IMG/poloxanh1.webp",
+      "avatar2": "..//../../assets/IMG/poloxanh2.webp",
+      "title": "Polo Waffle Collar - Green ",
+      "content": 420000,
+      "qnt": 4,
+      "all": 4,
+      "danhgia": 38
+    },
+    {
+      "id": 19,
+      "avatar1": "..//../../assets/IMG/pld1.webp",
+      "avatar2": "..//../../assets/IMG/pld2.webp",
+      "title": "Polo Waffle Collar - Green ",
+      "content": 420000,
+      "qnt": 4,
+      "all": 4,
+      "danhgia": 23
+    },
+    {
+      "id": 20,
+      "avatar1": "..//../../assets/IMG/plx1.webp",
+      "avatar2": "..//../../assets/IMG/plx2.webp",
+      "title": "Polo Waffle Collar - Navy ",
+      "content": 420000,
+      "qnt": 4,
+      "all": 4,
+      "danhgia": 11
+    },
+    {
+      "id": 21,
+      "avatar1": "..//../../assets/IMG/plma1.webp",
+      "avatar2": "..//../../assets/IMG/plma2.webp",
+      "title": "Polo Waffle - Green Bean ",
+      "content": 400000,
+      "qnt": 4,
+      "all": 4,
+      "danhgia": 24
+    },
+    {
+      "id": 22,
+      "avatar1": "..//../../assets/IMG/plt1.webp",
+      "avatar2": "..//../../assets/IMG/plt2.webp",
+      "title": "Polo Waffle - Off White",
+      "content": 400000,
+      "qnt": 4,
+      "all": 4,
+      "danhgia": 15
+    },
+    {
+      "id": 23,
+      "avatar1": "..//../../assets/IMG/xanhpl1.webp",
+      "avatar2": "..//../../assets/IMG/xanhpl2.webp",
+      "title": "Polo Waffle - Dark Green ",
+      "content": 400000,
+      "qnt": 4,
+      "all": 4,
+      "danhgia": 55
+    },
+    {
+      "id": 24,
+      "avatar1": "..//../../assets/IMG/plblack1.webp",
+      "avatar2": "..//../../assets/IMG/plblack2.webp",
+      "title": "Polo Waffle - Black",
+      "content": 400000,
+      "qnt": 4,
+      "all": 4,
+      "danhgia": 34
+    },
+    {
+      "id": 25,
+      "avatar1": "..//../../assets/IMG/hdd1.webp",
+      "avatar2": "..//../../assets/IMG/hdd2.webp",
+      "title": "Suede Boxy Hoodie - Chilli Pepper ",
+      "content": 580000,
+      "qnt": 3,
+      "all": 4,
+      "danhgia": 12
+    },
+    {
+      "id": 26,
+      "avatar1": "..//../../assets/IMG/hdx1.webp",
+      "avatar2": "..//../../assets/IMG/hdx2.webp",
+      "title": "Suede Boxy Hoodie - Royal Blue ",
+      "content": 580000,
+      "qnt": 3,
+      "all": 4,
+      "danhgia": 6
+    },
+    {
+      "id": 27,
+      "avatar1": "..//../../assets/IMG/hdt1.webp",
+      "avatar2": "..//../../assets/IMG/hdt2.webp",
+      "title": "Suede Boxy Hoodie - White ",
+      "content": 580000,
+      "qnt": 3,
+      "all": 4,
+      "danhgia": 12
+    },
+    {
+      "id": 28,
+      "avatar1": "..//../../assets/IMG/denhd1.webp",
+      "avatar2": "..//../../assets/IMG/denhd2.webp",
+      "title": "Suede Boxy Hoodie - Black",
+      "content": 580000,
+      "qnt": 3,
+      "all": 4,
+      "danhgia": 35
+    },
+    {
+      "id": 29,
+      "avatar1": "..//../../assets/IMG/Hoodie đen 1.webp",
+      "avatar2": "..//../../assets/IMG/Hoodie đen 2.webp",
+      "title": "TOBI 500gsm Boxy Hoodie - Lead Shell ",
+      "content": 580000,
+      "qnt": 3,
+      "all": 4,
+      "danhgia": 45
+    },
+    {
+      "id": 30,
+      "avatar1": "..//../../assets/IMG/Hoodie rêu 1.webp",
+      "avatar2": "..//../../assets/IMG/Hoodie rêu 2.webp",
+      "title": "TOBI 500gsm Boxy Hoodie - Green ",
+      "content": 580000,
+      "qnt": 3,
+      "all": 4,
+      "danhgia": 99
+    }
+  ],
+  "danhSach": [
+    {
+      "id": 1,
+      "name": "Shirts"
+    },
+    {
+      "id": 2,
+      "name": "Pants"
+    },
+    {
+      "id": 3,
+      "name": "Hoodies"
+    },
+    {
+      "id": 4,
+      "name": "Polo"
+    }
+  ],
+  "shirts": [
+    {
+      "id": 5,
+      "avatar1": "..//../../assets/IMG/ao xam 1.webp",
+      "avatar2": "..//../../assets/IMG/ap xam 2.webp",
+      "title": "TOBI Waffle T-shirt - Lead Shell ",
+      "content": "390.000",
+      "qnt": 1,
+      "all": 4,
+      "danhgia": 5
+    },
+    {
+      "id": 6,
+      "avatar1": "..//../../assets/IMG/aoolive1.webp",
+      "avatar2": "..//../../assets/IMG/aoolive2.webp",
+      "title": "TOBI Waffle T- shirt - Olive ",
+      "content": "390.000",
+      "qnt": 1,
+      "all": 4,
+      "danhgia": 3
+    },
+    {
+      "id": 7,
+      "avatar1": "..//../../assets/IMG/aotaupe.webp",
+      "avatar2": "..//../../assets/IMG/aotaupe2.webp",
+      "title": "TOBI Waffle T-shirt - Lead Shell",
+      "content": "390.000",
+      "qnt": 1,
+      "all": 4,
+      "danhgia": 1
+    },
+    {
+      "id": 11,
+      "avatar1": "..//../../assets/IMG/Áo tay nâu 1.webp",
+      "avatar2": "..//../../assets/IMG/Áo tay nâu 2.webp",
+      "title": "Waffle Raglan Tee - Brown ",
+      "content": "420.000",
+      "qnt": 1,
+      "all": 4,
+      "danhgia": 9
+    },
+    {
+      "id": 8,
+      "avatar1": "..//../../assets/IMG/cream.webp",
+      "avatar2": "..//../../assets/IMG/cream2.webp",
+      "title": "TOBI Waffle T- shirt - Olive ",
+      "content": "390.000",
+      "qnt": 1,
+      "all": 4,
+      "danhgia": 2
+    },
+    {
+      "id": 9,
+      "avatar1": "..//../../assets/IMG/Áo đen 1.webp",
+      "avatar2": "..//../../assets/IMG/Áo đen 1-2.webp",
+      "title": "TOBI 280gsm Heaven Tee - Black ",
+      "content": "390.000",
+      "qnt": 1,
+      "all": 4,
+      "danhgia": 3
+    },
+    {
+      "id": 10,
+      "avatar1": "..//../../assets/IMG/aonau1.webp",
+      "avatar2": "..//../../assets/IMG/aonau2.webp",
+      "title": "TOBI 280gsm Boxy Tee - Brown ",
+      "content": "420.000",
+      "qnt": 1,
+      "all": 4,
+      "danhgia": 6
+    },
+    {
+      "id": 11,
+      "avatar1": "..//../../assets/IMG/Áo tay nâu 1.webp",
+      "avatar2": "..//../../assets/IMG/Áo tay nâu 2.webp",
+      "title": "Waffle Raglan Tee - Brown ",
+      "content": "420.000",
+      "qnt": 1,
+      "all": 4,
+      "danhgia": 9
+    },
+    {
+      "id": 12,
+      "avatar1": "..//../../assets/IMG/trangxam1.webp",
+      "avatar2": "..//../../assets/IMG/trangxam2.webp",
+      "title": "Waffle Raglan Tee - Olive ",
+      "content": "420.000",
+      "qnt": 1,
+      "all": 4,
+      "danhgia": 0
+    },
+    {
+      "id": 13,
+      "avatar1": "..//../../assets/IMG/xamden1.webp",
+      "avatar2": "..//../../assets/IMG/xamden2.webp",
+      "title": "Waffle Raglan Tee - Black ",
+      "content": "420.000",
+      "qnt": 1,
+      "all": 4,
+      "danhgia": 11
+    }
+  ],
+  "Pants": [
+    {
+      "id": 1,
+      "avatar1": "./../../assets/IMG/tobi-waffle-short-black-682067_1800x1800.webp",
+      "avatar2": "./../../assets/IMG/tobi-waffle-short-black-167928_360x.webp",
+      "title": "TOBI Waffle Short - Black",
+      "content": "390.000",
+      "qnt": 2,
+      "all": 4,
+      "danhgia": 3
+    },
+    {
+      "id": 2,
+      "avatar1": "..//../../assets/IMG/quan trang 1.webp",
+      "avatar2": "..//../../assets/IMG/quan trang 2.webp",
+      "title": "TOBI Waffle Short - Nude ",
+      "content": "390.000",
+      "qnt": 2,
+      "all": 4,
+      "danhgia": 4
+    },
+    {
+      "id": 3,
+      "avatar1": "..//../../assets/IMG/quan xam 1.webp",
+      "avatar2": "..//../../assets/IMG/quan xam 2.webp",
+      "title": "TOBI Waffle Shorts - Lead Shell",
+      "content": "390.000",
+      "qnt": 2,
+      "all": 4,
+      "danhgia": 8
+    },
+    {
+      "id": 4,
+      "avatar1": "..//../../assets/IMG/quan trang xam 1.webp",
+      "avatar2": "..//../../assets/IMG/quan trang xam 2.jpg",
+      "title": "TOBI Waffle Shorts - Olive ",
+      "content": "390.000",
+      "qnt": 2,
+      "all": 4,
+      "danhgia": 9
+    },
+    {
+      "id": 14,
+      "avatar1": "..//../../assets/IMG/baggy1.webp",
+      "avatar2": "..//../../assets/IMG/baggy2.webp",
+      "title": "Double Knee Jeans SS22 - Blue ",
+      "content": "680.000",
+      "qnt": 2,
+      "all": 4,
+      "danhgia": 16
+    },
+    {
+      "id": 15,
+      "avatar1": "..//../../assets/IMG/abaggytrang1.webp",
+      "avatar2": "..//../../assets/IMG/abaggytrang2.webp",
+      "title": "Double Knee Jeans SS22 - White ",
+      "content": "680.000",
+      "qnt": 2,
+      "all": 4,
+      "danhgia": 20
+    },
+    {
+      "id": 16,
+      "avatar1": "..//../../assets/IMG/baggyden1.webp",
+      "avatar2": "..//../../assets/IMG/baggyden2.webp",
+      "title": "Double Knee Jeans SS22 - Black ",
+      "content": "680.000",
+      "qnt": 2,
+      "all": 4,
+      "danhgia": 16
+    }
+  ],
+  "Polo": [
+    {
+      "id": 17,
+      "avatar1": "..//../../assets/IMG/polotrang1.webp",
+      "avatar2": "..//../../assets/IMG/polotrang2.webp",
+      "title": "Polo Waffle Collar - White ",
+      "content": "420.000",
+      "qnt": 4,
+      "all": 4,
+      "danhgia": 9
+    },
+    {
+      "id": 18,
+      "avatar1": "..//../../assets/IMG/poloxanh1.webp",
+      "avatar2": "..//../../assets/IMG/poloxanh2.webp",
+      "title": "Polo Waffle Collar - Green ",
+      "content": "420.000",
+      "qnt": 4,
+      "all": 4,
+      "danhgia": 38
+    },
+    {
+      "id": 19,
+      "avatar1": "..//../../assets/IMG/pld1.webp",
+      "avatar2": "..//../../assets/IMG/pld2.webp",
+      "title": "Polo Waffle Collar - Green ",
+      "content": "420.000",
+      "qnt": 4,
+      "all": 4,
+      "danhgia": 23
+    },
+    {
+      "id": 20,
+      "avatar1": "..//../../assets/IMG/plx1.webp",
+      "avatar2": "..//../../assets/IMG/plx2.webp",
+      "title": "Polo Waffle Collar - Navy ",
+      "content": "420.000  ",
+      "qnt": 4,
+      "all": 4,
+      "danhgia": 11
+    },
+    {
+      "id": 21,
+      "avatar1": "..//../../assets/IMG/plma1.webp",
+      "avatar2": "..//../../assets/IMG/plma2.webp",
+      "title": "Polo Waffle - Green Bean ",
+      "content": "400.000",
+      "qnt": 4,
+      "all": 4,
+      "danhgia": 24
+    },
+    {
+      "id": 22,
+      "avatar1": "..//../../assets/IMG/plt1.webp",
+      "avatar2": "..//../../assets/IMG/plt2.webp",
+      "title": "Polo Waffle - Off White",
+      "content": "400.000",
+      "qnt": 4,
+      "all": 4,
+      "danhgia": 15
+    },
+    {
+      "id": 23,
+      "avatar1": "..//../../assets/IMG/xanhpl1.webp",
+      "avatar2": "..//../../assets/IMG/xanhpl2.webp",
+      "title": "Polo Waffle - Dark Green ",
+      "content": "400.000",
+      "qnt": 4,
+      "all": 4,
+      "danhgia": 55
+    },
+    {
+      "id": 24,
+      "avatar1": "..//../../assets/IMG/plblack1.webp",
+      "avatar2": "..//../../assets/IMG/plblack2.webp",
+      "title": "Polo Waffle - Black",
+      "content": "400.000",
+      "qnt": 4,
+      "all": 4,
+      "danhgia": 34
+    }
+  ],
+  "Hoodies": [
+    {
+      "id": 25,
+      "avatar1": "..//../../assets/IMG/hdd1.webp",
+      "avatar2": "..//../../assets/IMG/hdd2.webp",
+      "title": "Suede Boxy Hoodie - Chilli Pepper ",
+      "content": "580.000",
+      "qnt": 3,
+      "all": 4,
+      "danhgia": 12
+    },
+    {
+      "id": 26,
+      "avatar1": "..//../../assets/IMG/hdx1.webp",
+      "avatar2": "..//../../assets/IMG/hdx2.webp",
+      "title": "Suede Boxy Hoodie - Royal Blue ",
+      "content": "580.000",
+      "qnt": 3,
+      "all": 4,
+      "danhgia": 6
+    },
+    {
+      "id": 27,
+      "avatar1": "..//../../assets/IMG/hdt1.webp",
+      "avatar2": "..//../../assets/IMG/hdt2.webp",
+      "title": "Suede Boxy Hoodie - White ",
+      "content": "580.000",
+      "qnt": 3,
+      "all": 4,
+      "danhgia": 12
+    },
+    {
+      "id": 28,
+      "avatar1": "..//../../assets/IMG/denhd1.webp",
+      "avatar2": "..//../../assets/IMG/denhd2.webp",
+      "title": "Suede Boxy Hoodie - Black",
+      "content": "580.000",
+      "qnt": 3,
+      "all": 4,
+      "danhgia": 35
+    },
+    {
+      "id": 29,
+      "avatar1": "..//../../assets/IMG/Hoodie đen 1.webp",
+      "avatar2": "..//../../assets/IMG/Hoodie đen 2.webp",
+      "title": "TOBI 500gsm Boxy Hoodie - Lead Shell ",
+      "content": "580.000",
+      "qnt": 3,
+      "all": 4,
+      "danhgia": 45
+    },
+    {
+      "id": 30,
+      "avatar1": "..//../../assets/IMG/Hoodie rêu 1.webp",
+      "avatar2": "..//../../assets/IMG/Hoodie rêu 2.webp",
+      "title": "TOBI 500gsm Boxy Hoodie - Green ",
+      "content": "580.000",
+      "qnt": 3,
+      "all": 4,
+      "danhgia": 99
+    }
+  ],
+  "cart": [
+    {
+      "id_product": 2,
+      "title": "TOBI Waffle Short - Nude ",
+      "avatar1": "..//../../assets/IMG/quan trang 1.webp",
+      "content": 390000,
+      "quantity": 6,
+      "id": 1
+    },
+    {
+      "id_product": 1,
+      "title": "áO BÒ NAM ZÊN VIET VẺ 2002",
+      "avatar1": "./../../assets/IMG/tobi-waffle-short-black-682067_1800x1800.webp",
+      "content": 390000,
+      "quantity": 2,
+      "id": 2
+    }
+  ],
+  "account": [
+    {
+      "firstName": "Nguyễn Hoàng",
+      "lastName": "Nam",
+      "email": "nam031123@gmail.com",
+      "password": "hoangnam2003",
+      "id": 1
+    },
+    {
+      "firstName": "bao ",
+      "lastName": "LAM",
+      "email": "shynn2k3@gmail.com",
+      "password": "123456",
+      "id": 2
+    }
+  ],
+  "checkout": [
+    {
+      "firstName": "nam",
+      "lastName": "nam",
+      "phone": 987654321,
+      "city": "Hà nội",
+      "address": "asdffff",
+      "email": "cocaicc@gmail.com",
+      "id": 1
+    },
+    {
+      "firstName": "Phan Trần",
+      "lastName": "Bảo Lâm",
+      "phone": 987654321,
+      "city": "Hà Nội",
+      "address": "ngõ 335,thanh quang , an thượng , hoài đức ,hà nội",
+      "email": "cocaicccc@gmail.com",
+      "id": 2
+    },
+    {
+      "firstName": "Nguyễn Hoàng",
+      "lastName": "Nam",
+      "phone": 987654321,
+      "city": "Hà Nội",
+      "address": "Thôn Thang Quang",
+      "email": "cocaicc@gmail.com",
+      "id": 3
+    },
+    {
+      "firstName": "ádadd",
+      "lastName": "ádasdad",
+      "phone": 5132121316516512,
+      "city": "ádasdad",
+      "address": "ádasda",
+      "email": "shynn2k3@gmail.com",
+      "id": 4
+    },
+    {
+      "firstName": "ádasdasdasd",
+      "lastName": "ádasdasd",
+      "phone": 21230230230203204,
+      "city": "ádasdsadasd",
+      "address": "sadadasdasd",
+      "email": "shynn2k3@gmail.com",
+      "id": 5
+    },
+    {
+      "firstName": "asdasd",
+      "lastName": "asdasd",
+      "phone": 12302103210312,
+      "city": "sadasda",
+      "address": "sadasda",
+      "email": "shynn2k3@gmail.com",
+      "id": 6
+    }
+  ]
+}

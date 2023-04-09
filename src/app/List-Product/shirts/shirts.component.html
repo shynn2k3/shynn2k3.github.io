@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="text-shop">
+    <h1>SHIRTS</h1>
+  </div>
+  <div class="end-check">
+    <i class="fa-solid fa-angle-left"></i>
+    <a routerLink="/">Back to home</a>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-3 mb-3 " *ngFor="let item of listProduct">
+      <div class="card animate__animated">
+        <img class="card-img-top anh1" src="{{item.avatar1}}" alt="">
+        <img class="card-img-top anh2" src="{{item.avatar2}}" alt="">
+        <div class="card-body">
+          <p class="card-text" routerLink="/detail/{{item.id}}">{{item.title}}</p>
+          <div class="start">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>{{item.danhgia}} đánh giá</span>
+          </div>
+          <h4 class="card-title">{{item.content}}đ
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

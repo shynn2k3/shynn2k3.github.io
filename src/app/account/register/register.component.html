@@ -1,0 +1,70 @@
+<body>
+    <div class="container">
+        <div class="group-super">
+            <div class="text">
+                <h1>Create Account</h1>
+            </div>
+            <form [formGroup]="formData" (ngSubmit)="onSubmit()" class="">
+                <label for="exampleInputEmail1">First Name</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        formControlName="firstName" />
+                </div>
+                <div *ngIf="f.firstName.invalid && (f.firstName.dirty || f.firstName.touched)" class="text-danger">
+                    <div *ngIf="f.firstName.errors?.['required']">
+                        <small>This is a required field.</small>
+                    </div>
+                    <div *ngIf="f.firstName.errors?.['minlength']">
+                        <small>First Name format errors </small>
+                    </div>
+                </div>
+                <label for="exampleInputPassword1">Last Name</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="exampleInputPassword1" formControlName="lastName" />
+                </div>
+                <div *ngIf="f.lastName.invalid && (f.lastName.dirty || f.lastName.touched)" class="text-danger">
+                    <div *ngIf="f.lastName.errors?.['required']">
+                        <small>This is a required field.</small>
+                    </div>
+                    <div *ngIf="f.lastName.errors?.['minlength']">
+                        <small>Last Name format errors </small>
+                    </div>
+                </div>
+                <label for="exampleInputEmail1">Email</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    formControlName="email" />
+                </div>
+                <div *ngIf="f.email.invalid && (f.email.dirty || f.email.touched)" class="text-danger">
+                    <div *ngIf="f.email.errors?.['required']">
+                        <small>This is a required field.</small>
+                    </div>
+                    <div *ngIf="f.email.errors?.['email']">
+                        <small> Email format errors </small>
+                    </div>
+                </div>
+                <label for="exampleInputPassword1">Password</label>
+                <div class="input-group">
+                    <input type="password" class="form-control" id="exampleInputPassword1" formControlName="password" />
+                </div>
+                <div *ngIf="f.password.invalid && (f.password.dirty || f.password.touched)" class="text-danger">
+                    <div *ngIf="f.password.errors?.['required']">
+                        <small>This is a required field.</small>
+                    </div>
+                    <div *ngIf="f.password.errors?.['minlength']">
+                        <small> Password format errors </small>
+                    </div>
+                </div>
+                
+                <div class="button-login mt-4" >
+                    <button type="submit" [disabled]="!formData.valid">
+                        CREATE
+                    </button>
+                    <div class="btl">
+                        <a routerLink="/login"><span> < Back to Login</span></a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>

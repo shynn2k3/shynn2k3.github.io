@@ -1,0 +1,88 @@
+ <div class="star">
+   <div class="text">
+     <span>ĐĂNG KÍ
+       <b>MEMBERSHIP</b>
+       → MIỄN PHÍ VẬN CHUYỂN
+     </span>
+   </div>
+
+ </div>
+
+ <div class="header">
+   <div class="menu">
+     <div class="left">
+
+       <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+         <i class="fa-solid fa-magnifying-glass"></i></button>
+
+       <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+         <div class="offcanvas-header">
+           <i class="fa-solid fa-magnifying-glass"></i>
+           <input class="form-control mr-sm-2" type="text" placeholder="Search our store" [(ngModel)]="keyword">
+           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+         </div>
+         <div class="row">
+           <div class="col-lg-2 mb-3" *ngFor="let item of listProduct | search: keyword">
+             <div class="card">
+               <img class="card-img-top anh1" src="{{item.avatar1}}" alt="">
+               <img class="card-img-top anh2" src="{{item.avatar2}}" alt="">
+               <div class="card-body">
+                 <p class="card-text" routerLink="/detail/{{item.id}}">{{item.title}}</p>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <div class="logo">
+       <img routerLink="/" src="..//../../assets/IMG/Logo-2021_110x.webp" alt="">
+     </div>
+     <div class="right">
+       <a routerLink="/login"><i class="fa-regular fa-user"></i></a>
+
+       <a routerLink="/card"><i class="fa-solid fa-cart-shopping"></i></a>
+       <a href="" class="header-widget">
+
+         <i class="fa-solid">
+           <p><small>{{length}}</small></p>
+         </i>
+       </a>
+     </div>
+
+   </div>
+
+   <div class="list">
+     <div class="all">
+       <ul>
+         <li class="li"><a href="">SHOP</a>
+           <ul>
+             <li><a routerLink="/all">Shop All</a></li>
+             <li><a routerLink="/shirt">Shirts</a></li>
+             <li><a routerLink="/hoodie">Hoodies</a></li>
+             <li><a routerLink="/pant">Pants</a></li>
+             <li><a routerLink="/polo">Polo</a></li>
+             <li><a href="">Outerwear</a></li>
+             <li><a href="">Bags</a></li>
+             <li><a href="">Accessories</a></li>
+           </ul>
+         </li>
+         <li class="la"><a href="">BRAND</a>
+           <ul>
+             <li><a href="">Collection</a></li>
+             <li><a href="">Fashion Feed</a></li>
+             <li><a href="">Trồng cây cùng TOBI</a></li>
+
+           </ul>
+         </li>
+         <li class="le"><a href="">BLOG</a></li>
+         <li class="lu"><a href="">MEMBERSHIP++</a>
+           <ul>
+             <li><a href="">Chương trình Membership</a></li>
+           </ul>
+         </li>
+         <li class="lj"><a href=""> VỀ CHÚNG TÔI</a></li>
+       </ul>
+     </div>
+   </div>
+ </div>

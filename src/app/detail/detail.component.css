@@ -1,0 +1,228 @@
+.details-text {
+  font-family: 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+  line-height: 1.2;
+  padding: 150px 20px;
+}
+
+.details-text h5 {
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+span {
+  font-size: 12px;
+}
+
+p {
+  margin: 0;
+  font-size: 15px;
+}
+
+.dt-size {
+  padding: 20px 0 !important;
+  font-family: 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+  line-height: 1.2;
+}
+
+.dt-size button {
+  width: 35px;
+  height: 35px;
+  font-size: 14px;
+  margin-top: 20px;
+  border: 1px solid gray;
+  background-color: #f1f0ec;
+}
+
+/* .btn-size:focus {
+  border: 1px solid #111111;
+  color: #ffffff;
+  background-color: #111111;
+} */
+
+.btn-size{
+  cursor: pointer;
+}
+
+.active {
+  border: 1px solid #111111;
+  color: #ffffff;
+  background-color: #111111 !important;
+}
+
+.add-details button {
+  width: 100%;
+  height: 50px;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  border: 1px solid gray;
+  background-color: #f1f0ec;
+}
+
+.add-details button:hover {
+  color: #ffffff;
+  background-color: #111111;
+
+}
+
+.buy-details button {
+  width: 100%;
+  height: 50px;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  border: 1px solid gray;
+  background-color: #f1f0ec;
+}
+
+.buy-details button {
+  background-color: #111111;
+  color: #ffffff;
+}
+
+.buy-details button:hover {
+  background-color: #f1f0ec;
+  color: #111111;
+}
+
+.card-body {
+  text-align: left;
+  position: relative;
+  line-height: 1.2;
+  background-color: #f1f0ec;
+}
+
+.card {
+  cursor: pointer;
+  font-family: 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+  border: none;
+}
+
+.anh2 {
+  display: none;
+}
+
+.card:hover .anh2 {
+  display: block;
+}
+
+.card:hover .anh1 {
+  display: none;
+}
+
+.card-body h5 {
+  font-size: 15px;
+  cursor: pointer;
+  font-family: 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.about h4 {
+  font-family: 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.dt-ammout .col-lg-4 button {
+  width: 35px;
+  height: 35px;
+}
+
+.start {
+  margin-top: -15px;
+  margin-bottom: 30px;
+}
+
+.start i {
+  color: #dcbf83;
+  font-size: 13px;
+  padding: 2px;
+  margin-top: -15px;
+}
+
+.start span {
+  font-size: 15px;
+}
+
+.fa-star {
+  color: #dcbf83 !important;
+}
+
+.details-text p {
+  font-size: 17px;
+}
+
+.anh2 {
+  display: none;
+}
+
+.col-lg-6:hover .anh2 {
+  display: block;
+}
+
+.col-lg-6:hover .anh1 {
+  display: none;
+}
+
+.dt-size {
+  padding: 50px 0;
+  font-family: 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+  line-height: 1.2;
+}
+
+.dt-size button {
+  width: 35px;
+  height: 35px;
+  font-size: 14px;
+  margin-top: 20px;
+  border: 1px solid rgb(97, 96, 96);
+  background-color: #f1f0ec;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+
+.input{
+  margin-top: 15px;
+}
+
+.input input {
+  padding: 7px 7px !important;
+  border: none;
+  text-align: center;
+  color: black;
+  border-top: 1px solid black !important;
+  border-bottom: 1px solid black !important;
+    background-color: #f1f0ec;
+  width: 50px;
+}
+
+.btn-fake {
+  color: white;
+  padding: 7px 10px;
+  border: none;
+  width: 50px;
+  border: 1px solid black !important;
+}
+
+.input button {
+  background-color: #f1f0ec;
+  color: black;
+}
+
+.input button:hover {
+  background: black;
+  color: white;
+  transition: 0.5s;
+}
+
+.left_ip{
+  border-right: none !important;
+}
+
+.right_ip {
+  border-left: none !important;
+}
